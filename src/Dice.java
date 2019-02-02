@@ -5,6 +5,9 @@ public class Dice {
     private int tempNum;
     private static Random rand = new Random();
 
+    /**
+     * The default constructor automatically creates a dice with 6 sides.
+     */
     public Dice (){ //automatically the dice has 6 sides. No need of parameters
         sides = 6;
     }
