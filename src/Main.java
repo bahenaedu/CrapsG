@@ -1,13 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        /**
-         * Creating static variables:
-         * @param repeat: to keep asking the user to keep playing.
-         * @param dice_1: first dice
-         * @param dice_2: second dice
-         * @param CG_1: default constructor ask for to int (dices result), then start the game by using the play method
-         */
-
         //Variables
         boolean repeat = true;
         Dice dice_1 = new Dice();
