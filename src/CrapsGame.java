@@ -5,11 +5,22 @@ public class CrapsGame {
     private Dice tempDice_2 = new Dice();
     private static int sumFirstRolled;
 
-    public CrapsGame (int x, int y){ //the only constructor has parameters because the game needs to ints
-        dice_1 = x;
-        dice_2 = y;
+    /**
+     * The constructor ask for two int parameters.
+     * @param randomNumDice_1 result of first dice.
+     * @param randomNumDice_2 result of second dice.
+     */
+
+    public CrapsGame (int randomNumDice_1, int randomNumDice_2){ //the only constructor has parameters because the game needs to ints
+        dice_1 = randomNumDice_1;
+        dice_2 = randomNumDice_2;
     }
 
+    /**
+     * The play method is called from the Main class, it sum the results and looks for
+     * ways to win or lose.
+     * @return True or False
+     */
     public boolean play ()
     {
         sumFirstRolled = dice_1 + dice_2;
