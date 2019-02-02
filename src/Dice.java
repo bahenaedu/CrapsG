@@ -12,6 +12,10 @@ public class Dice {
         sides = 6;
     }
 
+    /**
+     * When the method is called, it creates a random number between 1 and 6 and return it.
+     * @return
+     */
     public int rollDice (){
         tempNum = rand.nextInt(sides) + 1;
         return tempNum;
