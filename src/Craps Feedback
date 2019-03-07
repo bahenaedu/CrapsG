@@ -1,0 +1,22 @@
+Craps:
+	Dice Class
+	Constructor to create new game
+	Play method implementation
+		2 dice objects
+		First throw - win/loss
+		Point rolls
+		Return value
+	Main Class
+		Create game
+		X Play 100000 times
+		X Display Win %
+
+Dice should be created as part of the constructor -- do not pass already-rolled values in.
+There is a lot of printing happening --- that is not conducive to automating 100000 games.
+
+Did not play 100000 times
+Did not display win %
+
+30/40
+
+
